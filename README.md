@@ -45,6 +45,26 @@ The repository is being built incrementally. Each milestone is implemented with 
 
 - [Architecture and roadmap](docs/architecture.md)
 - [Project roadmap](docs/roadmap.md)
+- [Architecture decisions](docs/decisions.md)
+
+## Local development
+
+Create a virtual environment, install the project with development tools, and run the API:
+
+```bash
+python -m venv .venv
+python -m pip install -e ".[dev]"
+uvicorn backend.app.main:app --reload
+```
+
+The initial system check is available at `http://127.0.0.1:8000/health`.
+
+Run the current quality checks with:
+
+```bash
+ruff check .
+pytest
+```
 
 ## License
 
