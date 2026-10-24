@@ -46,6 +46,8 @@ The repository is being built incrementally. Each milestone is implemented with 
 - [Architecture and roadmap](docs/architecture.md)
 - [Project roadmap](docs/roadmap.md)
 - [Architecture decisions](docs/decisions.md)
+- [Data model](docs/data-model.md)
+- [API contract](docs/api-contract.md)
 
 ## Local development
 
